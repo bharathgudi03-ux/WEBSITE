@@ -1,0 +1,195 @@
+header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.mainhead{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+    border: 1px solid;
+    background-color: lightgray;
+    height: 80px;
+}
+.logo {
+    flex: 3;
+}
+
+header nav {
+    flex: 8;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+header ul li {
+    flex: 1;
+}
+
+.myaccount {
+    color: rgb(20, 99, 99);
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav1 {
+    flex: 1;
+}
+
+.header1 {
+    background-color: gray;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.headercnt {
+    margin-left: 50px;
+}
+
+.login {
+    color: rgb(63, 152, 152);
+}
+
+.login:hover {
+    cursor: pointer;
+}
+
+.frm1 {
+    border: 1px solid;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.frm {
+    margin-left: 20px;
+}
+
+[type="email"] {
+    width: 400px;
+    height: 20px;
+}
+
+[type="password"] {
+    width: 400px;
+    height: 20px;
+}
+
+[value="Login"] {
+    color: white;
+    background-color: rgb(20, 99, 99);
+    height: 30px;
+    width: 80px;
+}
+
+.forms {
+    display: flex;
+    gap: 20px;
+}
+
+.frm2 {
+    border: 1px solid;
+    width: 500px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.log {
+    margin-left: 30px;
+}
+
+[placeholder="username"] {
+    width: 400px;
+    height: 20px;
+}
+
+[value="Submit & Register"] {
+    color: white;
+    background-color: rgb(20, 99, 99);
+    height: 30px;
+    width: 150px;
+}
+
+.footer1b {
+    background-color: rgb(63, 152, 152);
+    margin-top: 80px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footp {
+    margin-left: 300px;
+}
+
+[placeholder="Enter your email"] {
+    margin-left: 150px;
+    height: 30px;
+    width: 200px;
+}
+
+.bt15 {
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 1px solid;
+}
+
+.bt15:hover {
+    background-color: rgb(20, 99, 99);
+}
+
+.footer2 {
+    display: flex;
+    gap: 150px;
+    background-color: white;
+    position: relative;
+    left: 30px;
+    top: 10px;
+
+}
+
+.Address:hover {
+    cursor: pointer;
+}
+
+.MyAccount:hover {
+    cursor: pointer;
+}
+
+.line {
+    height: 2px;
+    width: 80%;
+    background-color: black;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+
+.copy ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: 50px;
+    gap: 600px;
+    font-size: small;
+}
+[type="search"]{
+    border: none;
+    width: 160px;
+    background-color: lightgray;
+    color: black;
+}
+.bar{
+    border: 1px solid;
+    width: 180px;
+    padding: 5px;
+}
